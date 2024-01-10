@@ -21,5 +21,12 @@ def cmd_start(message):
 
 
 
+def polling():
+  while True
+    try:
+      bot.infinity_polling()
+    except:
+      pass
 
-bot.infinity_polling()
+hilo=Thread(name="hilo", target=polling)
+hilo.start()
