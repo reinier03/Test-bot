@@ -19,23 +19,7 @@ def cmd_start(message):
   #/promocionar LA MÁS FACHERA utilidad de este bot, escucha bien pepillo 🦻\nCon este comando puedes hacer pxp (promocion de tu canal a través de otro owner como tú) sin tener que acosar por privado al pobre muchacho (o muchacha, ve a ver tú) (¬‿¬) Simplemente me envias tu publicación de promoción, yo le pido que confirme si quiere hacer el pxp contigo y si acepta, directamente publico las promos en los respectivos canales. Como requisitos indispensables es que tanto tú como él me tienen que dar admin y permisos para publicar, el otro requisito es que ambos ya hayan hablado conmigo y no me tengan bloqueado ¿Qué esperas para comenzar? ಠ_ಠ
 
 
-server_address = ""
-app = ""
 
-app = Flask('')
-
-
-@app.route('/')
-def home():
-  return f"Hello, The bot is running in {request.host_url}"
-
-
-def runServer():
-  app.run(host='0.0.0.0', port=8181)
-
-
-t = Thread(name="run_server", target=runServer)
-t.start()
 
 
 bot.infinity_polling()
