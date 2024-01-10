@@ -22,7 +22,7 @@ def cmd_start(message):
 
 
 def polling():
-  while True
+  while True:
     try:
       bot.infinity_polling()
     except:
