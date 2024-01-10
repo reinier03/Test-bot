@@ -2,7 +2,7 @@ import telebot
 from flask import Flask, request
 from threading import Thread
 
-bot=telebot.TeleBot("6529482461:AAGiVcX3FZj_9e6WRD0QLgRmgbnCNvIzgqA")
+bot=telebot.TeleBot("6529482461:AAHb7C9m4LKtc2g5JdP0QHP8i2Iazy5ofQM")
 
 bot.send_message(1413725506, "HOLA")
 
