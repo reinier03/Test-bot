@@ -64,7 +64,7 @@ def publicar(diccionario, user):
             
                 
 
-obtener_memes()
+
 
 
 
@@ -88,6 +88,8 @@ for i in threading.enumerate():
 else:
     hilo_flask=threading.Thread(name="hilo_flask", target=flask)
     hilo_flask.start()
+
+obtener_memes()
 
 bot.polling()
     
