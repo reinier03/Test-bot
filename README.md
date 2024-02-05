@@ -1,2 +1,2 @@
-# Test-bot
-asd
+# Auto-memes-publisher
+A bot that use webscrapping to post memes
